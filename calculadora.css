@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+
+.cal-container{
+ margin: auto;
+ max-width: 100%;
+ width: 350px;
+ height: 230px;
+ background-color: rgb(251, 248, 248);
+ border-radius: 5px;
+ border: 1px solid white;
+}
+
+.cal-container form{
+    margin: auto;
+    width: 300px;
+}
+
+.cal-container form input{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    text-align: right;
+
+    border: 1px solid  #FF8D87;
+    background-color: rgb(251, 248, 248);
+
+    margin: 10px 0px;
+    width: 295px;
+}
+
+.cal-container  form .btn{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 5px ;
+    grid-row-gap: 5px;
+    max-width: 100%;
+    width: 300px;
+    margin: auto;
+   
+}
+
+
+
+.cal-container .cal-number button{
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+
+    border: 1px solid #FF8D87;
+    border-radius: 10px;
+    background-color: #FF8D87;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
