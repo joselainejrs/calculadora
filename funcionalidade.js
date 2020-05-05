@@ -31,12 +31,27 @@ function calcular( ){
     
 }
 
-function percentage() {
-    var porcent = parseFloat('visor') / 100;
-    porcent = porcent.toString();
-    // display();
+function back( ){
 
-    console.log(porcent)
+    //pegando o valor do visor
+    var resultado = document.getElementById('visor').value;
+
+    //limpa o visor 1 por vez
+    document.getElementById('visor').value = resultado.substring(0,resultado.length-1);
+        
+}
+
+
+function percentage(porcento) {
+    
+    //mostrar no visor e incrementar
+    document.getElementById('visor').value += porcento;
+
+     //pegando o valor do visor
+     getElementById(valor = % porcento).document.visor.value;
+
+    // document.getElementById('visor').value = porcento.parseFloat(valor * valor/100);
+ 
   }
 
 
