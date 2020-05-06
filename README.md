@@ -1,4 +1,4 @@
-# calculadora.js #html #css #javascript #grid #buttom 
+#calculadora.js #html #css #javascript #grid #buttom #calculadora #calculator
 
 ----------------------------------------------------------------------------------------------------------
 Projeto Calculadora desenvolvida em html, css e javascript. 
