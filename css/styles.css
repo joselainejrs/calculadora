@@ -52,3 +52,8 @@ grid-column: 1 / span 2;
     background-color: #FF8D87;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
+
+.cal-container form button:hover{
+    background-color:#E37E78;
+    border: 1px solid #E37E78;
+}
