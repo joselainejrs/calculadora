@@ -2,8 +2,9 @@
 
 Projeto Calculadora desenvolvida em html, css e javascript. 
 
-Uso de:
-
-Vs CODE.
+Technologies used:
+HTML,
+CSS,
+Javascript.
 
 Esse projeto busca um aprendizado maior em lógica de programação e um aprofundamento em javascript

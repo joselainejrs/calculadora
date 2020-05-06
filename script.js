@@ -5,6 +5,7 @@ function botao( valor ){
     
     // opção 2
     document.getElementById('visor').value += valor;
+
 }
 
 function reset( C ){
@@ -28,7 +29,7 @@ function calcular( ){
     //calcular
     document.getElementById('visor').value = eval(resultado);
 
-    
+       
 }
 
 function back( ){
@@ -44,18 +45,19 @@ function back( ){
 
 function percentage(porcento) {
     
-    var calcular = '';
-    //mostrar no visor e incrementar
+
+    //mostrar no visor e incrementar    
     document.getElementById('visor').value += porcento;
 
-     //pegando o valor do visor
-     calcular.parseFloat((x = y) / 100) ;
-     
-     document.getElementById('visor').value = eval(calcular);
+    //calculo de porcentagem
+    var valor = parseFloat(document.calculator.visor.value);
+    var porcentagem = parseInt(document.calculator.visor.value); 
+    var result, total;
+    result = valor/100;
+    total = valor-(porcentagem*result);
+    
+    document.calculator.visor.value = total;
 
-    }
-
-    // document.getElementById('visor').value = porcento.parseFloat(valor * valor/100);
- 
-
-
+    console.log(total)
+//   document.getElementById('visor').calculator.value += "%";
+}
