@@ -9,4 +9,4 @@ Javascript.
 
 Esse projeto busca um aprendizado maior em lógica de programação e um aprofundamento em javascript
 
-![Screenshot](calculadorapng)
+![Screenshot](calculadora.png)
