@@ -4,7 +4,7 @@
  margin: auto ;
  max-width: 100%;
  width: 220px;
- height: 270px;
+ height: 235px;
  background-color: rgb(251, 248, 248);
  border-radius: 5px;
  border: 1px solid #FF8D87;
@@ -15,32 +15,18 @@
     width: 200px;
 }
 
-.cal-container form .input-box{
+.cal-container form input{
     border: 1px solid  #FF8D87;
     background-color: rgb(251, 248, 248);
 
+    font-size: 18px;
+    text-align: right;
+    font-family: 'Jost', sans-serif;
+    
     margin: 10px 0;
     width: 198px;
-    height: 80px;
+    height: 40px;
 }
-
-.cal-container form .input-box p{
-    font-family: 'Jost', sans-serif;
-    background-color: rgb(251, 248, 248);
-    text-align: right;
-}
-
-.cal-container form .visor1 p{
-    font-size: 13px;
-    color: #FF8D87;
-    margin-right: 5px;
-}
-
-.cal-container form .visor2 p{
-    font-size: 18px;
-    margin-right: 20px;
-}
-
 .cal-container  form .btn{
     display: grid;
     grid-template-columns: repeat(4, 1fr);

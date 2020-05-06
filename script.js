@@ -49,15 +49,15 @@ function percentage(porcento) {
     //mostrar no visor e incrementar    
     document.getElementById('visor').value += porcento;
 
-    //calculo de porcentagem
-    var valor = parseFloat(document.calculator.visor.value);
-    var porcentagem = parseInt(document.calculator.visor.value); 
-    var result, total;
-    result = valor/100;
-    total = valor-(porcentagem*result);
-    
-    document.calculator.visor.value = total;
+   
+    var porcentagem = parseFloat(document.calculator.visor.value);
+    var valor = parseFloat(document.calculator.visor.value) ;
+         porcento = porcentagem / 100;
+    var resultado = porcento * valor;
+     
+     document.calculator.visor.value = resultado;
 
-    console.log(total)
-//   document.getElementById('visor').calculator.value += "%";
+
+    //console.log(resultado)
+
 }
