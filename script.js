@@ -44,14 +44,18 @@ function back( ){
 
 function percentage(porcento) {
     
+    var calcular = '';
     //mostrar no visor e incrementar
     document.getElementById('visor').value += porcento;
 
      //pegando o valor do visor
-     getElementById(valor = % porcento).document.visor.value;
+     calcular.parseFloat((x = y) / 100) ;
+     
+     document.getElementById('visor').value = eval(calcular);
+
+    }
 
     // document.getElementById('visor').value = porcento.parseFloat(valor * valor/100);
  
-  }
 
 
