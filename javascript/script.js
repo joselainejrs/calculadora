@@ -42,22 +42,11 @@ function back( ){
         
 }
 
-
 function percentage(porcento) {
-    
+       document.getElementById('visor').value += porcento;
 
-    //mostrar no visor e incrementar    
-    document.getElementById('visor').value += porcento;
-
-   
-    var porcentagem = parseFloat(document.calculator.visor.value);
-    var valor = parseFloat(document.calculator.visor.value) ;
-         porcento = porcentagem / 100;
-    var resultado = porcento * valor;
-     
-     document.calculator.visor.value = resultado;
-
-
-    //console.log(resultado)
+    //    calculo da porcentagem
+    calculo = document.getElementById('visor').value.replace("%", "/100");
+    document.getElementById('visor').value = eval(calculo);
 
 }
