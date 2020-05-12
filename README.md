@@ -1,14 +1,14 @@
-#calculadora.js #html #css #javascript #grid #buttom #calculadora #calculator
+# calculadora.js #html #css #javascript #grid #buttom #calculadora #calculator
 
 ----------------------------------------------------------------------------------------------------------
-Projeto Calculadora desenvolvida em html, css e javascript. 
+Calculator project developed in html, css and javascript.
 
 Technologies used:
 HTML,
 CSS,
 Javascript.
 
-Esse projeto busca um aprendizado maior em lógica de programação e um aprofundamento em javascript
+This project seeks a greater learning in programming logic and a deepening in javascript.
 
 -----------------------------------------------------------------------------------------------------------
 
