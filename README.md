@@ -4,8 +4,11 @@
 Calculator project developed in html, css and javascript.
 
 Technologies used:
+
 HTML,
+
 CSS,
+
 Javascript.
 
 This project seeks a greater learning in programming logic and a deepening in javascript.
